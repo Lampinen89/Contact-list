@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="js/main.js"></script>
     <title></title>
 </head>
 <body>
     <h1 id="title">Mina kontakter</h1>
-
+    
     <main>
-        <form>
-            <input type="text">
-            <input type="number">
-            <input type="button" value="Skapa">
-        </form>
+        <div class="container" id="add-contact">
+            <input type="text" placeholder="Namn" name="fullname">
+            <input type="tel" placeholder="Telefonnummer" name="phone" maxlength="10">
+            <button>Lägg till kontakt</button>
+        </div>
     </main>
+    
+    <div class="container">
+        <h2>Kontaktlista</h2>
+        <ul></ul>
+    </div>
+    
+    <script src="js/main.js"></script>
 
 </body>
 </html>
