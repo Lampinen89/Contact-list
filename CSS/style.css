@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+main, .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: chocolate;
+}
+
+input {
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: darkolivegreen;
+}
+
+button:hover {
+    background-color: lightseagreen;
+    cursor: pointer;
+
+}
+
+input, button {
+    padding: 0.5rem;
+}
