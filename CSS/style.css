@@ -21,19 +21,41 @@ h1 {
 
 input {
     font-weight: bold;
+    width: 250px;
 }
 
 button {
     color: white;
     background-color: darkolivegreen;
+    width: 150px;
 }
 
 button:hover {
     background-color: lightseagreen;
     cursor: pointer;
-
 }
 
 input, button {
     padding: 0.5rem;
+}
+
+button.edit-button {
+    background-color: cornflowerblue;
+}
+
+button.edit-button.save {
+    background-color: green;
+}
+
+button.delete-button:hover {
+    background-color: crimson;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
 }

@@ -22,9 +22,18 @@
     
     <div class="container">
         <h2>Kontaktlista</h2>
-        <ul></ul>
+        <ul id="contact-list"></ul>
     </div>
     
+    <template id="contact-list-row">
+        <li>
+            <input disabled type="text">
+            <input disabled type="tel" maxlength="10">
+            <button onclick="editRow(this)" class="edit-button">Ändra kontakt</button>
+            <button onclick="deleteRow(this)" class="delete-button">Radera kontakt</button>
+        </li>
+    </template>
+
     <script src="js/main.js"></script>
 
 </body>
